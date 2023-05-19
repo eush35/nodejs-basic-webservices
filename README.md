@@ -1,3 +1,6 @@
+# NodeJS Web Services Application
+
+In this application, I will share with you a process that takes place in the background of a simple social media application. You can perform GET, POST, PUT and DELETE operations with the web services I have developed using the Node JS library of the Javascript language. Below are the instructions you need to do to run the application.
 
 ## Service Reference
 
