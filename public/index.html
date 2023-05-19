@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Emre UĞUR</title>
+</head>
+<body>
+	<div class="container">
+		<div class="profile-header">
+			<div class="profile-banner"></div>
+			<div class="profile-avatar"></div>
+			<h1 class="profile-name">Kullanıcı Adı</h1>
+			<h2 class="profile-username">@kullaniciadi</h2>
+		</div>
+		<div class="profile-nav">
+			<ul>
+				<li>Tweetler</li>
+				<li>Tweetler ve Yanıtlar</li>
+				<li>Medya</li>
+				<li>Beğeniler</li>
+			</ul>
+		</div>
+		<div class="profile-content">
+			<div class="profile-stats">
+				<div class="stats-item">
+					<div class="stats-count">100</div>
+					<div class="stats-label">Takipçiler</div>
+				</div>
+				<div class="stats-item">
+					<div class="stats-count">50</div>
+					<div class="stats-label">Takip Edilenler</div>
+				</div>
+				<div class="stats-item">
+					<div class="stats-count">75</div>
+					<div class="stats-label">Tweetler</div>
+				</div>
+			</div>
+			<div class="profile-tweets">
+				<!-- Burada tweetler yer alacak -->
+			</div>
+		</div>
+	</div>
+</body>
+<style>
+	body {
+  font-family: Arial, sans-serif;
+  background-color: #F5F8FA;
+  color: #1C1E21;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #FFFFFF;
+  border: 1px solid #E1E8ED;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 30px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-name {
+  font-size: 32px;
+  font-weight: bold;
+  color: #1C1E21;
+  margin-bottom: 10px;
+}
+
+.profile-handle {
+  font-size: 24px;
+  color: #657786;
+  margin-top: 5px;
+}
+
+.profile-bio {
+  font-size: 20px;
+  line-height: 28px;
+  color: #1C1E21;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.profile-location {
+  font-size: 18px;
+  color: #657786;
+  margin-bottom: 20px;
+}
+
+.profile-website {
+  font-size: 18px;
+  color: #1DA1F2;
+  margin-bottom: 40px;
+}
+
+.profile-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #E1E8ED;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+.stats-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stats-count {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1C1E21;
+}
+
+.stats-label {
+  font-size: 20px;
+  color: #657786;
+  margin-top: 10px;
+}
+
+.profile-tweets {
+  margin-top: 40px;
+}
+
+.profile-tweet {
+  padding: 20px;
+  border-bottom: 1px solid #E1E8ED;
+}
+
+.profile-tweet:hover {
+  background-color: #F5F8FA;
+}
+
+.profile-tweet-text {
+  font-size: 20px;
+  line-height: 28px;
+  color: #1C1E21;
+}
+
+.profile-tweet-date {
+  font-size: 16px;
+  color: #657786;
+  margin-top: 20px;
+}
+
+
+</style>
+<script src="../app/index.js"></script>
+</html>
